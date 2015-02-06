@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>multi_robot_stage</name>
+  <version>2.2.0</version>
+  <description>
+    Stage version of multi_robot simulation. Convenient to test 2D-navigation related stuffs
+  </description>
+
+  <maintainer email="ferherranz@gmail.com">Fernando Herranz</maintainer>
+  <author email="ferherranz@gmail.com">Fernando Herranz</author>
+  <license>BSD</license>
+
+  
+  <url type="repository">https://github.com/ferherranz/multi_robot_stage</url>
+  <url type="bugtracker">https://github.com/ferherranz/multi_robot_stage/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>stage_ros</run_depend>
+  <run_depend>navigation</run_depend>
+  <run_depend>turtlebot_bringup</run_depend>
+  <run_depend>yocs_virtual_sensor</run_depend>
+  <run_depend>yocs_velocity_smoother</run_depend>
+</package>
