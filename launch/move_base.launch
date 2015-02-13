@@ -44,6 +44,10 @@
       <arg name="scan_topic"   value="base_scan"/>
     </include>
    
+
+    <node name="robot_pose_publisher" pkg="robot_pose_publisher" type="robot_pose_publisher" output="screen">      
+      <param name="base_frame"             value="$(arg robot_name)/base_link"/> 
+    </node> 
     
     
 </launch>
